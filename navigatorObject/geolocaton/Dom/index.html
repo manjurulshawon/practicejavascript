@@ -22,8 +22,16 @@
         <p>p3</p>
         <p>p4</p> -->
                <!--  Cookie info-->
+               <!-- <p></p> -->
+               <!-- <p></p>
                <p></p>
-               <button onclick="Demo()">Click</button>
+               <p></p>
+               <p></p>
+               <p></p> -->
+               <!-- <button onclick="Demo()">Click</button> -->
+               <input id="num1"><br><br>
+               <input id="num2"><br><br>
+               <button onclick="AddTwoNumber()">Click</button>
 
     <script>
          
@@ -51,9 +59,50 @@
 //     document.getElementsByTagName('p')[0].innerHTML=info;
 // }
 
+// function Demo(){
+//     var info=document.title;
+//     document.getElementsByTagName('p')[0].innerHTML=info;
+// }
+// ***************************URL*****************************
+// function Demo(){
+//     var info=document.URL;
+//     document.getElementsByTagName('p')[0].innerHTML=info;
+// }
 
 
+// ***********************Document Replace*******************
 
+// function Demo(){
+
+//     document.open('text/HTML','replace');
+//     document.write('<h2> Shawon</h2>');
+//     document.close();
+// }
+// *************DOM WINDOW**************************
+
+ function Demo(){
+//     let w=window.open();
+//     w.document.open();
+//     w.document.write("Hello new Window!");
+//     w.document.close();
+
+ }
+// ********************************Lenght Count**********************
+
+function Demo(){
+
+    // let MyItem=document.getElementsByTagName('p');
+    // let MyCount=MyItem.length;
+    // alert(MyCount);
+}
+
+// *******************open new window and write some thing**************
+ function AddTwoNumber(){
+ let num1 = document.getElementById("num1").value;
+ let num2 = document.getElementById("num2").value;
+ let result=parseFloat(num1)+parseFloat(num2);
+ alert(result);
+ }
 
     </script>
 </body>
